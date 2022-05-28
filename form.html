@@ -1,0 +1,151 @@
+<html>
+<title>CVRU ADMISSION FORM</title>
+<head>
+<script>
+function validationform()
+{
+var x = document.forms["aform"]["sname"].value;
+if (x=="")
+{
+alert("please first fill your name");
+return false;
+}
+var y = document.forms["aform"]["Fname"].value;
+if (y=="")
+{
+alert("please fill your father name");
+return false;
+}
+var z = document.forms["aform"]["Mname"].value;
+if (z=="")
+{
+alert("please fill your Mother name");
+return false;
+}
+}
+</script>
+<style>
+p{
+word-spacing:50px;
+background-color:orange;
+}
+font{
+background-color:blue;
+color:white;
+font-size:30px;
+}
+</style>
+</head>
+<body>                                                                       
+<table border="0" width="1350">
+<Tr >
+<td align=right><img src='csvt.png' style='width: 120px;'></td>
+<td style=text-align:left>
+<h1>CV RAMAN UNIVERSITY, BILASPUR(C.G.)</h3>
+<h3>Enrolment Application 2019-2020</h4>
+</td>
+</tr>
+<tr><td colspan=2><p> | Overview | Course_Admissions | Packages | Similar_Colleges |</p></td>
+</tr>
+</table>
+<h5 style="background-color:yellow;color:red;font-size:15px;">NOTE :- Please do not press F5 while applying online <br>
+Field marked asterisk(*) are mandatory</h5>
+<form name="aform" action="wallpaper.html" method="post" onsubmit="return validationform()">
+<h2 style=background-color:blue>Personal Details</h2>
+<table height="500" width="1300" >
+<tr><td width="150">
+STUDENT NAME* :</td><td><input type="text" name="sname"></td>
+</tr>
+<tr>
+<td>
+FATHER'S NAME* :</td>
+<td >
+<input type="text" name="Fname">
+</td>
+</tr>
+<tr>
+<td>
+MOTHER NAME* :</td>
+<td><input type="text" name="Mname"></td>
+</tr>
+<tr>
+<td>DOB* :</td>
+<td><input type="text" name="Dname"></td>
+</tr>
+<tr>
+<td>ROLL NO* :</td>
+<td><input type="text" name="rname"></td>
+</tr>
+<tr>
+<td>E-MAIL ID:</td>
+<td><input type="text" name="ename"></td>
+</tr>
+<tr>
+<td>Mobile no.:</td>
+<td><input type="text" name="ename" size="10"></td>
+</tr>
+<tr>
+<td>SELECT GENDER :</td>
+<td><input type="radio" name="gender" value="female">FEMALE
+<input type =radio name = "gender" value="male">MALE</td>
+</tr>
+<tr>
+<td>SELECT BRANCH :</td>
+<td><select>
+<option>CSE</OPTION>
+<option>IT</OPTION>
+<option>ET&T</OPTION>
+</select></td>
+</tr>
+<tr>
+<td>ADDRESS</TD>
+<td><textarea row="8" column="10">please fill details
+</textarea></td>
+</tr>
+<tr><td colspan=2 width=13500><h2 style=background-color:blue;>Educational Details</h2></td></tr>
+</table>
+<table border=1 width=1300 height=300>
+<tr>
+<th width=10>S.no.</th>
+<th>Class</th>
+<th>Board</th>
+<th width=20>Passing year</th>
+<th>Percent</th>
+</tr>
+<tr><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td></tr>
+<tr><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td></tr>
+<tr><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td></tr>
+<tr><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td></tr>
+<tr><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td></tr>
+</table>
+<table>
+<tr><td>
+<input type="submit" value="SUBMIT">
+</td>
+<td >
+<input type="reset" value="reset"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
