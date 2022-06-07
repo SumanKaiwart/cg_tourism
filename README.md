@@ -8,3 +8,16 @@ Chhattisgarh Tourism is a Tourism website. With Complete Details of all type of 
  <p align="center">
   <img  height='300' src="https://github.com/SumanKaiwart/cg_tourism/blob/master/cgTourismOutput/userRegistation.png">
  </p>
+ <p align="center">
+  <img  height='300' src="https://github.com/SumanKaiwart/cg_tourism/blob/master/cgTourismOutput/AdminPage.png">
+ </p>
+  <p align="center">
+  <img  height='300' src="https://github.com/SumanKaiwart/cg_tourism/blob/master/cgTourismOutput/user-temple.png">
+ </p>
+  <p align="center">
+  <img  height='300' src="https://github.com/SumanKaiwart/cg_tourism/blob/master/cgTourismOutput/userLogin.png">
+ </p>
+  <p align="center">
+  <img  height='300' src="https://github.com/SumanKaiwart/cg_tourism/blob/master/cgTourismOutput/userpage.png">
+ </p>
+ 
